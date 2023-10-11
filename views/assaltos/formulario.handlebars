@@ -1,0 +1,34 @@
+<div class="container bg-info mt-3">
+    <h1 class="bg-dark text-light text-center">Informe os dados do assalto</h1>
+  
+    <form method="post" action="/assaltos/salvar/">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text"
+            class="form-control" name="nome" id="nome" aria-describedby="helpId" placeholder="Nome completo">
+          <small id="helpId" class="form-text text-muted">Digite o nome da vítima do assalto</small>
+        </div>
+        <div class="mb-3 col-3">
+          <label for="cpf" class="form-label">CPF</label>
+          <input type="text"
+            class="form-control" name="cpf" id="cpf" aria-describedby="helpId" placeholder="XXX.XXX.XXX-XX">
+          <small id="helpId" class="form-text text-muted">Digite o CPF da vítima</small>
+        </div>
+        <div class="mb-3">
+          <label for="local" class="form-label">Local</label>
+          <input type="text"
+            class="form-control" name="local" id="local" aria-describedby="helpId" placeholder="Local do assalto">
+          <small id="helpId" class="form-text text-muted">Descreva um ponto de referência do local do assalto</small>
+        </div>
+        <div class="mb-3">
+          <label for="data" class="form-label">Data/Hora</label>
+          <input type="datetime-local"
+            class="form-control" name="data" id="data" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Informe a data e a hora do assalto</small>
+        </div>
+        <input type="hidden" name="lat" value="{{lat}}">
+        <input type="hidden" name="lng" value="{{lng}}">
+        <button type="submit" class="btn btn-success mb-2">Registrar</button>
+    </form>
+    
+</div>
