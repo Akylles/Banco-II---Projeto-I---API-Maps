@@ -1,12 +1,12 @@
 Objetivo
 
-	O presente projeto tem como objetivo pôr em prática os conhecimentos acerca de bancos de dados espaciais e corresponde a uma das notas da disciplina. Além disso, são também objetivos:
+O presente projeto tem como objetivo pôr em prática os conhecimentos acerca de bancos de dados espaciais e corresponde a uma das notas da disciplina. Além disso, são também objetivos:
 Desenvolver uma aplicação web;
 Trabalhar em equipe.
 
 Domínio
 
-	Visando abordar um tema prático, vocês deverão criar uma aplicação para persistir e listar (ou buscar) dados de ocorrências policiais. Para cada ocorrência, deverão ser salvas as seguintes informações:
+Visando abordar um tema prático, vocês deverão criar uma aplicação para persistir e listar (ou buscar) dados de ocorrências policiais. Para cada ocorrência, deverão ser salvas as seguintes informações:
 título
 tipo (assalto, furto, dentre outros)
 data
